@@ -10,7 +10,8 @@
   --success-green: #4ade80;
   --warning-orange: #fbbf24;
   /* AFTER */
---nav-height: 116px; /* utility bar ~32px + navbar ~84px */
+--nav-height: 70px;
+--section-height: calc(100vh - 70px);
 --cat-bar-height: 45px; /* category bar height */
 }
 
@@ -266,13 +267,13 @@ body { background: var(--dark-bg); color: #fff; margin: 0; font-family: 'Inter',
 .nav-down { transform: translateY(0); transition: transform 0.35s ease; }
 .nav-up   { transform: translateY(-100%); transition: transform 0.35s ease; }
 .top-utility-bar { background: var(--frost-blue); color: #000; display: flex; justify-content: space-between; padding: 5px 50px; font-size: 0.7rem; font-weight: 800; align-items: center; }
-.navbar { display: flex; align-items: center; justify-content: space-between; padding: 12px 50px; border-bottom: 1px solid var(--glass-border); gap: 20px; }
+.navbar { display: flex; align-items: center; justify-content: space-between; padding: 6px 50px; border-bottom: 1px solid var(--glass-border); gap: 20px; }
 .navbar-left { display: flex; align-items: center; gap: 20px; }
 .navbar-right { display: flex; align-items: center; gap: 16px; }
 .nav-social-link { color: #555; display: flex; align-items: center; transition: color 0.2s; }
 .nav-social-link:hover { color: var(--frost-blue); }
 .nav-divider { width: 1px; height: 22px; background: var(--glass-border); }
-.site-logo { height: 60px; cursor: pointer; }
+.site-logo { height: 40px; cursor: pointer; }
 .nav-home-btn {
   display: flex;
   align-items: center;
@@ -333,14 +334,14 @@ body { background: var(--dark-bg); color: #fff; margin: 0; font-family: 'Inter',
 .cancel-weight-btn { background: transparent; border: none; color: #666; font-size: 0.75rem; text-decoration: underline; cursor: pointer; margin-top: 5px; }
 
 /* --- GALLERY --- */
-.gallery-section { padding: 100px 0; background: #000; overflow: hidden; }
+.gallery-section { padding: 100px 0 160px 0; background: #000; overflow: visible; }
 .gallery-header { text-align: center; margin-bottom: 50px; }
 .gallery-header h2 { font-weight: 800; font-size: 2.5rem; color: var(--frost-blue); letter-spacing: -1px; }
 .slider-outer-wrapper { position: relative; max-width: 1400px; margin: auto; padding: 0 70px; }
 .slider-view-window { overflow: hidden; border-radius: 20px; }
 .slider-track { display: flex; }
 .slider-item { flex: 0 0 33.3333%; padding: 0 12px; }
-.gallery-img-wrapper { height: 450px; border-radius: 15px; overflow: hidden; border: 1px solid var(--glass-border); }
+.gallery-img-wrapper { height: 320px; border-radius: 15px; overflow: hidden; border: 1px solid var(--glass-border); }
 .gallery-img-wrapper img { width: 100%; height: 100%; object-fit: cover; }
 .gallery-nav-btn { background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); width: 55px; height: 55px; border-radius: 50%; position: absolute; top: 50%; transform: translateY(-50%); z-index: 100; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.3s; }
 .gallery-nav-btn:hover { background: var(--frost-blue); }
@@ -734,7 +735,8 @@ body { background: var(--dark-bg); color: #fff; margin: 0; font-family: 'Inter',
   font-size: 0.9rem; cursor: pointer; transition: 0.3s; letter-spacing: 0.5px;
   box-shadow: 0 4px 20px rgba(165,216,255,0.35);
 }
-.hero-cta:hover { background: #fff; transform: translateY(-3px); box-shadow: 0 15px 40px rgba(165,216,255,0.3); }
+
+.hero-cta:hover { background: #fff; color: #000; transform: translateY(-3px); box-shadow: 0 15px 40px rgba(165,216,255,0.3); }
 .hero-bg-frost {
   position: absolute; bottom: -40px; right: -20px;
   font-size: 280px; opacity: 0.025; pointer-events: none;
@@ -1514,20 +1516,17 @@ body { background: var(--dark-bg); color: #fff; margin: 0; font-family: 'Inter',
   .page-static { padding: 40px 20px 60px; }
   .static-page-title { font-size: 1.8rem; }
 }
-/* ══════════════════════════════════════════════════
-   HOME PAGE SNAP SCROLLING (UPDATED)
-══════════════════════════════════════════════════ */
-
 .page-home-snapper {
-  /* The container itself becomes the scrollable area */
-  height: calc(100vh - var(--nav-height, 116px));
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  
-  /* Hide scrollbar for a clean app-like feel */
-  scrollbar-width: none; 
-  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .page-home-snapper::-webkit-scrollbar {
@@ -1535,7 +1534,8 @@ body { background: var(--dark-bg); color: #fff; margin: 0; font-family: 'Inter',
 }
 
 .page-home-snapper .snap-section {
-  height: calc(100vh - var(--nav-height, 116px)); 
+  height: calc(100vh - 70px);
+  min-height: unset;
   width: 100%;
   scroll-snap-align: start;
   scroll-snap-stop: always;
@@ -1543,15 +1543,15 @@ body { background: var(--dark-bg); color: #fff; margin: 0; font-family: 'Inter',
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-/* Section overrides for perfect centering */
-.snap-section.hero-banner { min-height: unset; padding: 0 50px; border-bottom: none; }
+.snap-section.hero-banner { height: calc(100vh - 70px); min-height: unset; padding: 0 50px; border-bottom: none; }
 .snap-section.home-why-section { padding: 0; border: none; }
-.snap-section.gallery-section { padding: 0; border: none; }
+.snap-section.gallery-section { padding: 0 0 100px 0; border: none; }
 .snap-section.home-howitworks-section { padding: 0; border: none; }
 
-/* Let the footer size itself naturally and snap to the very end */
 .footer-snap {
   height: auto !important;
   min-height: unset !important;
@@ -1560,7 +1560,7 @@ body { background: var(--dark-bg); color: #fff; margin: 0; font-family: 'Inter',
 }
 
 .footer-snap .main-footer {
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 /* ══════════════════════════════════════════════════
@@ -1668,7 +1668,7 @@ body { background: var(--dark-bg); color: #fff; margin: 0; font-family: 'Inter',
 .stepper-interactive-box {
   width: 100%; background: rgba(255,255,255,0.02);
   border: 1px solid var(--glass-border);
-  border-radius: 30px; padding: 50px;
+  border-radius: 30px; padding: 30px;
   box-shadow: 0 30px 60px rgba(0,0,0,0.5);
 }
 

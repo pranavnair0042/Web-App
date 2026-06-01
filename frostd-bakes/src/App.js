@@ -135,8 +135,8 @@ const HomePage = ({
                 {displayGallery.map((item, idx) => (
                   <div key={`${item?.id || idx}-${idx}`} className="slider-item">
                     <div className="gallery-img-wrapper" onClick={() => setSelectedCake(item)} style={{ cursor: 'pointer', position: 'relative' }}>
-                      <img src={item?.image || logoUrl} alt={item?.name || 'Cake'} onError={(e) => e.target.src = logoUrl} />
-                      <div className="cake-hover-overlay" style={{ opacity: 1, pointerEvents: 'auto', background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%)', top: 'auto', bottom: 0, padding: '20px 10px' }}>
+                      <img src={item?.image || logoUrl} alt={item?.name || 'Cake'} onError={(e) => e.target.src = logoUrl} /> 
+                      <div className="cake-hover-overlay" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%)', top: 'auto', bottom: 0, padding: '20px 10px' }}>
                         <h3 className="hover-cake-name" style={{ margin: 0 }}>{item?.name || ''}</h3>
                         <p className="hover-price" style={{ margin: 0 }}>₹{item?.basePrice || ''}</p>
                       </div>
