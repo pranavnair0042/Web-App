@@ -1,0 +1,394 @@
+{
+  "bakeryName": "FROST'D BAKES",
+  "heroImage": "/images/logo.jpg",
+  "contact": {
+    "phone": "+91 94007 41828",
+    "email": "order@frostdbakes.com",
+    "address": "Peroorkada, Trivandrum"
+  },
+  "socials": {
+    "instagram": "https://instagram.com/frostd_bakes",
+    "facebook": "#",
+    "whatsapp": "https://wa.me/919400741828"
+  },
+  "footerLinks": {
+    "column1": [
+      { "label": "OUR STORY", "url": "#" },
+      { "label": "OUR PRODUCTS", "url": "#" },
+      { "label": "SPECIALITY CAKES", "url": "#" },
+      { "label": "BLOGS", "url": "#" }
+    ],
+    "column2": [
+      { "label": "PRIVACY POLICY", "url": "#" },
+      { "label": "COOKIE POLICY", "url": "#" },
+      { "label": "REFUND POLICY", "url": "#" },
+      { "label": "FAQs", "url": "#" }
+    ]
+  },
+  "cakes": [
+    {
+      "id": 1,
+      "name": "Lotus Biscoff",
+      "category": "Signature Cakes",
+      "basePrice": 1400,
+      "weights": { "0.5kg": 1400, "1kg": 2600, "2kg": 5000 },
+      "image": "/images/Lotus-Biscoff.jpeg",
+      "popular": true,
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 2,
+      "name": "Ferrero Truffle",
+      "category": "Signature Cakes",
+      "basePrice": 1500,
+      "weights": { "0.5kg": 1500, "1kg": 2800, "2kg": 5400 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Ferrero+Truffle",
+      "popular": true,
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 3,
+      "name": "Cookies & Cream",
+      "category": "Signature Cakes",
+      "basePrice": 1100,
+      "weights": { "0.5kg": 1100, "1kg": 2000, "2kg": 3800 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Cookies+and+Cream",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 4,
+      "name": "Chocolate Truffle",
+      "category": "Signature Cakes",
+      "basePrice": 1000,
+      "weights": { "0.5kg": 1000, "1kg": 1800, "2kg": 3500 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Chocolate+Truffle",
+      "popular": true,
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 5,
+      "name": "Blueberry Bliss",
+      "category": "Signature Cakes",
+      "basePrice": 1200,
+      "weights": { "0.5kg": 1200, "1kg": 2200, "2kg": 4200 },
+      "image": "/images/Blueberry-Bliss.jpeg",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 6,
+      "name": "Tres Leches Pistachio",
+      "category": "Signature Cakes",
+      "basePrice": 1600,
+      "weights": { "0.5kg": 1600, "1kg": 3000, "2kg": 5800 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Pistachio+Tres+Leches",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 7,
+      "name": "KitKat Chocolate Truffle",
+      "category": "Signature Cakes",
+      "basePrice": 1200,
+      "weights": { "0.5kg": 1200, "1kg": 2200, "2kg": 4200 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=KitKat+Truffle",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 8,
+      "name": "Fresh Fruit Cake",
+      "category": "Signature Cakes",
+      "basePrice": 1300,
+      "weights": { "0.5kg": 1300, "1kg": 2400, "2kg": 4600 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Fresh+Fruit+Cake",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 9,
+      "name": "Praline Butterscotch",
+      "category": "Signature Cakes",
+      "basePrice": 1100,
+      "weights": { "0.5kg": 1100, "1kg": 2000, "2kg": 3800 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Praline+Butterscotch",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 10,
+      "name": "Vanilla Lemon Curd",
+      "category": "Signature Cakes",
+      "basePrice": 1050,
+      "weights": { "0.5kg": 1050, "1kg": 1900, "2kg": 3600 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Vanilla+Lemon+Curd",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 11,
+      "name": "Almond Truffle",
+      "category": "Signature Cakes",
+      "basePrice": 1350,
+      "weights": { "0.5kg": 1350, "1kg": 2500, "2kg": 4800 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Almond+Truffle",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 12,
+      "name": "Kinder Bueno",
+      "category": "Signature Cakes",
+      "basePrice": 1550,
+      "weights": { "0.5kg": 1550, "1kg": 2900, "2kg": 5600 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Kinder+Bueno",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 13,
+      "name": "Choco Crunch Delight",
+      "category": "Signature Cakes",
+      "basePrice": 1150,
+      "weights": { "0.5kg": 1150, "1kg": 2100, "2kg": 4000 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Choco+Crunch",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 14,
+      "name": "Mousse Cake",
+      "category": "Signature Cakes",
+      "basePrice": 1450,
+      "weights": { "0.5kg": 1450, "1kg": 2700, "2kg": 5200 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Mousse+Cake",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 15,
+      "name": "Kunafa Pistachio",
+      "category": "Signature Cakes",
+      "basePrice": 1700,
+      "weights": { "0.5kg": 1700, "1kg": 3200, "2kg": 6000 },
+      "image": "https://placehold.co/600x400/111/a5d8ff?text=Kunafa+Pistachio",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true,
+      "popular": true
+    },
+    {
+      "id": 16,
+      "name": "Vanilla Delight",
+      "category": "Classic Delights",
+      "basePrice": 800,
+      "weights": { "0.5kg": 800, "1kg": 1500, "2kg": 2800 },
+      "image": "https://placehold.co/600x400/111/ffffff?text=Vanilla+Delight",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 17,
+      "name": "Chocolate Delight",
+      "category": "Classic Delights",
+      "basePrice": 850,
+      "weights": { "0.5kg": 850, "1kg": 1600, "2kg": 3000 },
+      "image": "https://placehold.co/600x400/111/ffffff?text=Chocolate+Delight",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 18,
+      "name": "White Chocolate Truffle",
+      "category": "Classic Delights",
+      "basePrice": 950,
+      "weights": { "0.5kg": 950, "1kg": 1750, "2kg": 3400 },
+      "image": "https://placehold.co/600x400/111/ffffff?text=White+Choco+Truffle",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 19,
+      "name": "Tender Coconut Cake",
+      "category": "Classic Delights",
+      "basePrice": 1100,
+      "weights": { "0.5kg": 1100, "1kg": 2000, "2kg": 3800 },
+      "image": "https://placehold.co/600x400/111/ffffff?text=Tender+Coconut",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 20,
+      "name": "Spanish Delight",
+      "category": "Classic Delights",
+      "basePrice": 1000,
+      "weights": { "0.5kg": 1000, "1kg": 1800, "2kg": 3500 },
+      "image": "https://placehold.co/600x400/111/ffffff?text=Spanish+Delight",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 21,
+      "name": "Red Velvet",
+      "category": "Classic Delights",
+      "basePrice": 1050,
+      "weights": { "0.5kg": 1050, "1kg": 1900, "2kg": 3600 },
+      "image": "https://placehold.co/600x400/111/ffffff?text=Red+Velvet",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 22,
+      "name": "Chocolate Tin",
+      "category": "Tin Cakes",
+      "basePrice": 500,
+      "image": "https://placehold.co/600x400/111/ffc107?text=Chocolate+Tin",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 23,
+      "name": "Blueberry Tin",
+      "category": "Tin Cakes",
+      "basePrice": 550,
+      "image": "https://placehold.co/600x400/111/ffc107?text=Blueberry+Tin",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 24,
+      "name": "Kunafa Pistachio Tin",
+      "category": "Tin Cakes",
+      "basePrice": 750,
+      "image": "https://placehold.co/600x400/111/ffc107?text=Kunafa+Tin",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 25,
+      "name": "Butterscotch Tin",
+      "category": "Tin Cakes",
+      "basePrice": 500,
+      "image": "https://placehold.co/600x400/111/ffc107?text=Butterscotch+Tin",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 26,
+      "name": "White Chocolate Tin",
+      "category": "Tin Cakes",
+      "basePrice": 550,
+      "image": "https://placehold.co/600x400/111/ffc107?text=White+Choco+Tin",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 27,
+      "name": "Lotus Biscoff Tin",
+      "category": "Tin Cakes",
+      "basePrice": 650,
+      "image": "https://placehold.co/600x400/111/ffc107?text=Biscoff+Tin",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 28,
+      "name": "Choco Brownie Cheesecake",
+      "category": "Brownies",
+      "basePrice": 150,
+      "image": "https://placehold.co/600x400/111/28a745?text=Brownie+Cheesecake",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 29,
+      "name": "Red Velvet Cheesecake Brownie",
+      "category": "Brownies",
+      "basePrice": 160,
+      "image": "https://placehold.co/600x400/111/28a745?text=Red+Velvet+Brownie",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 30,
+      "name": "Chocolate Brownies",
+      "category": "Brownies",
+      "basePrice": 120,
+      "image": "https://placehold.co/600x400/111/28a745?text=Chocolate+Brownie",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 31,
+      "name": "Butterscotch Pudding",
+      "category": "Puddings",
+      "basePrice": 180,
+      "image": "https://placehold.co/600x400/111/17a2b8?text=Butterscotch+Pudding",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 32,
+      "name": "Tender Coconut Pudding",
+      "category": "Puddings",
+      "basePrice": 200,
+      "image": "https://placehold.co/600x400/111/17a2b8?text=Coconut+Pudding",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    },
+    {
+      "id": 33,
+      "name": "Butter Pudding",
+      "category": "Puddings",
+      "basePrice": 150,
+      "image": "https://placehold.co/600x400/111/17a2b8?text=Butter+Pudding",
+      "description": "Layers of velvety Biscoff cream and caramelised cookie crumble on a buttery sponge base.",
+      "allergens": "Contains: Gluten, Dairy, Eggs, Soy. May contain traces of Nuts.",
+      "dairy": true
+    }
+  ],
+  "gallery": [
+    { "id": 1, "image": "https://placehold.co/800x1200/111/a5d8ff?text=Creation+1" },
+    { "id": 2, "image": "https://placehold.co/800x1200/111/a5d8ff?text=Creation+2" },
+    { "id": 3, "image": "https://placehold.co/800x1200/111/a5d8ff?text=Creation+3" },
+    { "id": 4, "image": "https://placehold.co/800x1200/111/a5d8ff?text=Creation+4" },
+    { "id": 5, "image": "https://placehold.co/800x1200/111/a5d8ff?text=Creation+5" },
+    { "id": 6, "image": "https://placehold.co/800x1200/111/a5d8ff?text=Creation+6" },
+    { "id": 7, "image": "https://placehold.co/800x1200/111/a5d8ff?text=Creation+7" }
+  ]
+}
